@@ -2,6 +2,7 @@
   background: linear-gradient(101.42deg, #DFEFFF -0.04%, rgba(223, 239, 255, 0.27) 94.2%);
   box-sizing: border-box;
   overflow: hidden;
+  position: relative;
 }
 
 .container::before {
