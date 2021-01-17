@@ -1,4 +1,5 @@
 import React from 'react';
+import LoadableImageType from '../LoadableImage/LoadableImage';
 import styles from './ItemsGrid.module.css';
 
 type ItemsGridType = {
@@ -11,7 +12,7 @@ const ItemsGrid: React.FC<ItemsGridType> = ({ data }) => {
       {data.map((item, ix) => {
         return (
           <div key={ix} className={styles.item}>
-            <img src={item} alt="" />
+            <LoadableImageType src={item} />
           </div>
         )
       })}
